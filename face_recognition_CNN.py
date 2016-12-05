@@ -41,7 +41,8 @@ for image in imageData:
     imageDataFin.append(resized_image)
 
 # split the data into training set and test set
-X_train, X_test, y_train, y_test = train_test_split(np.array(imageDataFin), np.array(imageLabels), train_size=0.9, random_state = 123)
+X_train, X_test, y_train, y_test = train_test_split(np.array(imageDataFin), np.array(imageLabels), train_size=0.9, 
+                                                    random_state = 123)
 
 # fix the random seed for reproducibility
 seed = 123
