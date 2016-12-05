@@ -1,5 +1,5 @@
 """
-This program is used to recognize the human frances from 15 persons using Yale Face Dataset.
+This program is used to recognize the human frances among 15 persons using Yale Face Dataset.
 """
 
 import cv2
@@ -121,3 +121,5 @@ if not incorrect_classified_indices:
     print('\nAll test samples are correctly recognized.')
 else:
     print('The incorrect indices are:', incorrect_classified_indices) 
+    
+    
